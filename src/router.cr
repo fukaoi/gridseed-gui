@@ -1,7 +1,7 @@
 require "kemal"
 
 get "/" do
-  "gridseed gui!!"
+  # "gridseed gui!!"
 end
 
 Kemal.run
