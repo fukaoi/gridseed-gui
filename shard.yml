@@ -1,0 +1,17 @@
+name: gridseed-gui
+version: 0.1.0
+
+authors:
+  - fukaoi <info@fukaoi.org>
+
+targets:
+  gridseed-gui:
+    main: src/gridseed-gui.cr
+
+crystal: 0.24.1
+
+license: MIT
+
+dependencies:
+  github: kemalcr/kemal	
+
