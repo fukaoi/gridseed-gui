@@ -1,7 +1,7 @@
 require "kemal"
 
 get "/" do
-  # "gridseed gui!!"
+  render "view/index.ecr"
 end
 
 Kemal.run
