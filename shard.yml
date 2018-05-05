@@ -15,4 +15,6 @@ license: MIT
 dependencies:
   kemal:
     github: kemalcr/kemal	
+  kemal-watcher: #development
+    github: faustinoaq/kemal-watcher
 
