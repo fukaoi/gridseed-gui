@@ -15,32 +15,43 @@
   <!------ Include the above in your HEAD tag ---------->
 
   <div class="container" style="margin-top: 100px">
-    <h1>Gridseed GUI<strong> - ASIC mining machine for scrypt algorism - </strong></h1>
+    <h1>Gridseed GUI
+      <strong> - ASIC mining machine for scrypt algorism - </strong>
+    </h1>
     <div class="row">
       <div class="col-md-12">
 
-          <div class="form_main">
-              <h4 class="heading">
-                <strong>Wifi設定 </strong> 入力項目　<div class="badge badge-secondary">未接続</div>
-              </h4>
-              <div class="form">
-                <form action="contact_send_mail.php" method="post" id="contactFrm" name="contactFrm">
-                  <input type="text" required="" placeholder="WIFIのSSIDを入力" value="" name="name" class="txt">
-                  <input type="text" required="" placeholder="WIFIのパスワードを入力" value="" name="mob" class="txt">
-                  <input type="submit" value="wifiの登録" name="submit" class="txt2">
-                </form>
-              </div>
-            </div>
-        <br/><br/>      
         <div class="form_main">
           <h4 class="heading">
-            <strong>マイニングプール設定 </strong> 入力項目　<div class="badge badge-secondary">未接続</div>
+            <strong>Wifi設定 </strong> 入力項目
+            <div class="badge badge-secondary">未接続</div>
           </h4>
           <div class="form">
             <form action="contact_send_mail.php" method="post" id="contactFrm" name="contactFrm">
+              <input type="text" required="" placeholder="WIFIのSSIDを入力" value="" name="name" class="txt">
+              <input type="text" required="" placeholder="WIFIのパスワードを入力" value="" name="mob" class="txt">
+              <input type="submit" value="wifiの登録" name="submit" class="txt2">
+            </form>
+          </div>
+        </div>
+        <br/>
+        <br/>
+        <div class="form_main">
+          <h4 class="heading">
+            <strong>マイニングプール設定 </strong> 入力項目
+            <div class="badge badge-secondary">未接続</div>
+          </h4>
+
+          <div class="form">
+              <a href="" class="btn btn-lg btn-info" disabled>アカウント、パスワード形式</a>
+              <a href="" class="btn btn-secondary btn-lg" disabled>Walletアドレス形式</a>    
+          </div>
+      
+          <div class="form">
+            <form action="contact_send_mail.php" method="post" id="contactFrm" name="contactFrm">
               <input type="text" required="" placeholder="マイニングプールのURLを入力" value="" name="name" class="txt">
-              <input type="text" required="" placeholder="アカウント(or walleアドレス)を入力" value="" name="mob" class="txt">
-              <input type="text" required="" placeholder="（※任意）パスワードを入力" value="" name="email" class="txt">
+              <input type="text" required="" placeholder="アカウントを入力" value="" name="mob" class="txt">
+              <input type="text" required="" placeholder="パスワードを入力" value="" name="email" class="txt">
               <input type="submit" value="マイニングプールの登録" name="submit" class="txt2">
             </form>
           </div>
