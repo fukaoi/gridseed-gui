@@ -14,9 +14,14 @@ get "/" do
   # render "view/index.ecr"
 end
 
+post "/wifi" do |env|
+  p env.params.body
+end
+
 files = [
   "public/*.js",
-  "public/*.html"
+  "public/*.html",
+  "src/*.cr"
 ]
 
 Kemal.watch(files)
