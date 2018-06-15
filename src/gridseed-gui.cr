@@ -15,13 +15,13 @@ get "/" do
 end
 
 post "/wifi" do |env|
-  p env.params.body
+  ssid = env.params.body["ssid"]
+  password = env.params.body["password"]
 end
 
 files = [
   "public/*.js",
-  "public/*.html",
-  "src/*.cr"
+  "public/*.html"
 ]
 
 Kemal.watch(files)
