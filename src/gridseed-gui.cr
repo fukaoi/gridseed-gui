@@ -2,10 +2,11 @@ require "kemal"
 require "kemal-watcher"
 require "./gridseed-gui/*"
 
-# TODO: Write documentation for `Gridseed::Gui`
 module Gridseed::Gui
   class ClassName
+    def method_name
 
+    end
   end
 end
 
